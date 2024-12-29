@@ -20,6 +20,10 @@ public class EmployeeDAO {
 	private String email;
 
 	private String deptId;
+	
+	private int mobileNumber;
+	
+	private int salary;
 
 	public String getId() {
 		return id;
@@ -52,6 +56,23 @@ public class EmployeeDAO {
 	public void setDeptId(String deptId) {
 		this.deptId = deptId;
 	}
+
+	public int getMobileNumber() {
+		return mobileNumber;
+	}
+
+	public void setMobileNumber(int mobileNumber) {
+		this.mobileNumber = mobileNumber;
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+	
 
 	
 }
