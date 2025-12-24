@@ -15,6 +15,8 @@ public class DbConnectionMainApp {
 
 	public static void main(String[] args) {
 		
+		System.out.println("This is a github learning practice");
+		
 		DbConnectionMainApp dbConnc=new DbConnectionMainApp();
 		dbConnc.selectMethod();
 		dbConnc.insertMethod();
